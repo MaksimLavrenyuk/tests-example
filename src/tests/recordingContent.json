@@ -1,0 +1,81 @@
+{
+  "title": "Запись (15:11:05 28.06.2023)",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 1716,
+      "height": 1259,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "https://www.google.com/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://www.google.com/",
+          "title": "Google"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [
+        [
+          "aria/Найти"
+        ],
+        [
+          "#APjFqb"
+        ],
+        [
+          "xpath///*[@id=\"APjFqb\"]"
+        ],
+        [
+          "pierce/#APjFqb"
+        ]
+      ],
+      "offsetY": 19,
+      "offsetX": 152
+    },
+    {
+      "type": "change",
+      "value": "test example",
+      "selectors": [
+        [
+          "aria/Найти"
+        ],
+        [
+          "#APjFqb"
+        ],
+        [
+          "xpath///*[@id=\"APjFqb\"]"
+        ],
+        [
+          "pierce/#APjFqb"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Enter",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://www.google.com/search?q=test+example&source=hp&ei=ViOcZKvyEuKOxc8P_PmmuAk&iflsig=AOEireoAAAAAZJwxZj9kp5-0dTkQ_f0nYZ7v76ssn9nl&ved=0ahUKEwir9c7R9-X_AhViR_EDHfy8CZcQ4dUDCAk&uact=5&oq=test+example&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIICAAQFhAeEA8yBggAEBYQHjIGCAAQFhAeOhAILhADEI8BEOoCEIwDEOUCOhAIABADEI8BEOoCEIwDEOUCOgsIABCABBCxAxCDAToLCAAQigUQsQMQgwE6CAguEIAEENQCOhEILhCABBCxAxCDARDHARDRAzoOCC4QgAQQsQMQgwEQ1AI6DgguEIAEELEDEMcBENEDOgsILhCABBCxAxCDAToICAAQgAQQsQM6CwguEIoFELEDEIMBOgUILhCABFDzBljPEmCDFWgBcAB4AIABiAGIAZEGkgEEMTEuMZgBAKABAbABCg&sclient=gws-wiz",
+          "title": "test example - Поиск в Google"
+        }
+      ]
+    },
+    {
+      "type": "keyUp",
+      "key": "Enter",
+      "target": "main"
+    }
+  ]
+}
