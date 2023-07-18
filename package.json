@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "cypress-open": "cypress open"
+    "cypress-open": "cypress open",
+    "postversion": "git push --tags && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "author": "",
   "license": "ISC",
